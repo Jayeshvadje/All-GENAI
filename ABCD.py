@@ -13,3 +13,5 @@ user_input=st.text_input("Enter your search term")
 if st.button("Search"):
     result = model.invoke(user_input)
     st.text(result.content)
+
+## this is how we use streamlit
