@@ -5,3 +5,4 @@ chat_template = ChatPromptTemplate([("system","you are a helpful {domain} expert
 
 prompt= chat_template.invoke({"domain":"Cricket","topic":"Dusra"})
 print(prompt)
+print("jayesh")

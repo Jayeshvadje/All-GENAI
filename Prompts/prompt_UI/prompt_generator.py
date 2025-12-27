@@ -18,6 +18,5 @@ If certain information is not available in the paper, respond with:
 "Insufficient information available in the paper." instead of guessing.
 
 Provide a clear, structured, and easy-to-understand explanation.""",
-    input_variables=['paper_input', 'style_input', 'length_input'],validate_template=True
-)
+    input_variables=['paper_input', 'style_input', 'length_input'],validate_template=True)
 template.save("template.json")
