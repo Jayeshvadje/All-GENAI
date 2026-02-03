@@ -34,3 +34,5 @@ result = chain.invoke({"text":content})
 print(result)
 
 chain.get_graph().print_ascii()
+
+#parallel_chain
