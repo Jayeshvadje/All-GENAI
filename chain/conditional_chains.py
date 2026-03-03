@@ -2,7 +2,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 from langchain_core.output_parsers import PydanticOutputParser
 from pydantic import BaseModel, Field
-
 from typing import Literal
 load_dotenv()
 from langchain_core.prompts import PromptTemplate
