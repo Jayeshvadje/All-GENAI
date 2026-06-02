@@ -16,9 +16,6 @@ prompt_template = ChatPromptTemplate([("system","you are a helfull chatbot assis
 
 import os
 
-# Get the directory where chatbot.py is located
-script_dir = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(script_dir, "chat_history.txt")
 chat_history = []
 with open("chat_history.txt") as f:
     chat_history.extend(f.readlines())
